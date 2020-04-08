@@ -1,0 +1,42 @@
+#diceForm {
+  text-align:center;
+  width:100%;
+}
+
+#dieimg {
+  vertical-align: 50px;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {vertical-align: 100px;}
+}
+
+#tossingDice {
+  height:25px;
+  text-align:center;
+  position: relative;
+  color:white;
+  margin-top:50px;
+}
+
+input {
+  text-align:center;
+  width:72pt;
+  padding:10px;
+  margin-bottom:12pt;
+}
+
+input#submit {
+  margin-top:-12pt;
+}
+
+#showResult {
+  margin:10px auto;
+  font-size:24pt;
+  position: absolute;
+  background-color:transparent;
+  padding:10px 20px;
+  /*top: 25%;*/
+  left:40%;
+  transform: translateY(-50%);
+}
